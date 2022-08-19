@@ -1,0 +1,129 @@
+/*--------- CSS Reset -----------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* ---------------Navbar-Section -------------------*/
+
+.logo img {
+  width: 120px;
+  height: 55x;
+  margin-top: 12px;
+}
+.navbar {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+/*----------- UnOrderLIst-------- */
+
+#menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.list-item{
+margin: 5px 20px;
+}
+.list-item a {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 2px 5px;
+  color: black;
+
+}
+.list-item a:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(230, 166, 166);
+}
+.list-item a.active {
+  border-bottom: 2px solid black;
+}
+/*------- Icons-------- */
+.icons-section img {
+  margin: 1px 15px;
+  margin-top: 15px;
+}
+
+/* -----------------Heading-Haragrapg-Flower-Section ----------------------*/
+
+.flower-section {
+  position: absolute;
+  left: 44vw;
+  top: 18vh;
+}
+.flower-section img {
+  height: 80vh;
+  width: 55vw;
+}
+/*-------------Heading-Paragraph-Section---------- */
+
+#heading-paragraph-section {
+  width: 35vw;
+  position: absolute;
+  left:4vw;
+  top: 30vh;
+}
+
+.heading-paragraph h1 {
+  font-weight: bold;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 3px;
+}
+.heading-paragraph p {
+  font-size: 20px;
+}
+/* ----------Button-Section---------- */
+
+.button {
+  position: relative;
+  top: 10vh;
+}
+.button .btn {
+  border: none;
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 5px 15px;
+  background-color: #62a58b;
+  color: white;
+  font-family: sans-serif;
+}
+.button img {
+  height: 20px;
+  width: 10px;
+}
+
+/*------ feeding-light-Care-Section------------ */
+
+#feeding-light-care-section {
+  display: flex;
+  position: absolute;
+  left:2vw;
+  top: 78vh;
+  justify-content: space-around;
+}
+.box-section {
+  display: flex;
+  margin: 5px 5px;
+  width: 12vw;
+}
+.box-section .box-img img {
+  height: 40px;
+  width: 50px;
+  margin-top: 15px;
+}
+.box-heading-parg {
+  padding: 5px 10px;
+}
+.box-heading-parg h1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.box-heading-parg p {
+  font-size: 15px;
+  margin-top: 2px;
+}
