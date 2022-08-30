@@ -1,4 +1,4 @@
-## This is my sixth landing page created for learning front end designing using HTML and CSS.
+## This is a landing page created for learning front end designing using HTML and CSS.
 
 ### Tech Stack Used:-
 - HTML
