@@ -6,5 +6,6 @@
 
 ----
 
+## [Live-Link](https://my-plant-landing-page.netlify.app/)
 
 ![Image](img/Screenshot%20(360).png)
